@@ -1,0 +1,235 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-grid {
+    display: grid;
+    
+}
+
+
+/*========== Navigation ==========*/
+.header {
+    flex-direction: row;
+    background-color: black;
+    height: 100px;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+nav li {
+    display: inline-flex;
+    list-style-type: none;
+    font-size: 20px;
+    color: white;
+}
+
+
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin: 30px;
+}
+
+nav a:hover {
+    color: rgb(235, 68, 129);
+}
+
+.name {
+    margin-right: 15%;
+}
+
+
+/*========== Stage Pic ==========*/
+
+.grid-1 /*featured shows*/{
+    background-image: url(images/theater-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+    color: white;
+}
+
+.grid-1 h1 {
+    text-align: center;
+    font-size: 145px;
+    margin-top: 320px
+}
+
+
+/*========== Show Info ==========*/
+
+
+.grid-2 /*center*/ {
+    display: grid;
+    height: fit-content;
+    gap: 20px;
+}
+
+.date {
+    background-color: rgb(202, 208, 208);
+    height: fit-content;
+    width: 60%;
+    justify-self: center;
+    justify-content: center;
+    align-self: center;
+    text-indent: 100px;
+    border-top: solid 1px rgb(230, 226, 226);
+    border-left: solid 1px rgb(230, 226, 226);
+    border-right: solid 1px rgb(230, 226, 226);
+    border-bottom:  solid 2px rgb(167, 161, 161);
+}
+
+.content {
+    display: flex;
+    justify-self: center;
+    height: 250px;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid 2px rgb(167, 161, 161) ;
+    
+    
+}
+
+.content-2 {
+    display: flex;
+    justify-self: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+    width: 60%;
+    border-bottom: solid 2px rgb(167, 161, 161) ;
+        
+}
+
+.content-3 {
+    display: flex;
+    justify-self: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+    width: 60%;
+    border-bottom: solid 2px rgb(167, 161, 161) ;
+    
+}
+
+.content-4 {
+    display: flex;
+    justify-self: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+    width: 60%;
+    border-bottom: solid 2px rgb(167, 161, 161) ;
+    margin-bottom: 30px;
+    
+}
+
+/*========== Show Items ==========*/
+
+.pic {
+    background-image: url(images/a-raisin-in-the-sun.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 220px;
+}
+
+.text {
+    height: 220px;
+    width: 300px;
+    font-size: 20px;
+}
+
+
+
+.read {
+    color: rgb(255, 255, 255);
+    background-color: rgb(245, 165, 26);    
+    align-self: center;
+    text-align: center;
+    width: 115px;
+}
+
+.read a {
+    color: white;
+    text-decoration: none;
+}
+
+.read a:hover {
+    color: black;
+}
+
+button {
+    background-color: rgb(245, 165, 26);
+    height: 40px;
+    width: 120px;
+}
+
+/*========= Footer ===========*/
+
+.grid-3 /*footer*/ {
+    display: flex;
+    height: fit-content;
+    background-color: black;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.grid-3 li {
+    display: flex;
+    margin: 30px;
+    
+}
+
+.grid-3 h1 {
+    color: white;
+    text-indent: 30px;
+}
+
+.grid-3 a {
+    color: white;
+    text-decoration: none
+}
+
+.grid-3 a:hover {
+    color: rgb(235, 68, 129)
+}
+
+.map {    
+    display: flex;
+    background-image: url(images/griot_map.png);
+    height: 300px;
+    width: 400px;    
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    height: 400px;
+    width: 400px;
+}
+
+.shows {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    height: 400px;
+    width: 300px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    height: 400px;
+    width: 300px;
+}
